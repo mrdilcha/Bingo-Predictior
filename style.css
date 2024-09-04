@@ -1,0 +1,86 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    text-align: center;
+}
+
+.logo {
+    max-width: 150px;
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    font-size: 14px;
+    color: #aaa;
+    margin-bottom: 10px;
+}
+
+input[type="text"] {
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+}
+
+button {
+    padding: 15px 30px;
+    border: none;
+    background-color: #ffc107;
+    color: #000;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #e0a800;
+}
+
+#connection-status {
+    margin-top: 10px;
+    font-size: 16px;
+    color: #ffcc00; /* Yellow color for "Connecting Server..." */
+}
+
+#prediction-result {
+    display: none; /* Hide until there's a result */
+}
+
+#result-text {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: blue; /* Always blue color */
+}
+
+#result-dot {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+.red-dot {
+    background-color: red;
+}
+
+.green-dot {
+    background-color: green;
+  }
