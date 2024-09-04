@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KWG Prediction App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4HuusKgBNk_cJK9q1eyLcbpF_rWt8vG0mTY0HzNsWhRP8qkU2G5bPvsP8&s=10" alt="KWG Logo" class="logo">
+        
+        <form id="prediction-form">
+            <label for="period_number">Enter Period Number</label>
+            <input type="text" id="period_number" name="period_number" required>
+
+            <button type="submit">CHECK NOW</button>
+        </form>
+
+        <div id="connection-status"></div>
+        <div id="prediction-result">
+            <h2>Result</h2>
+            <p id="result-text"></p>
+            <div id="result-dot"></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
